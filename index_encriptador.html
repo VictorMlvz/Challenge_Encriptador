@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Encriptador-Alura</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="challengeAlura.js"></script>
+
+    </head>
+    <body>
+        
+        <main class="main">
+            <div class="main_superior">
+                <header class="header">
+                    <a href="https://www.aluracursos.com/">  
+                    <img class="logo" src="img/Logo.png"></a>
+                </header>
+
+                <div class="medio">
+                    <div class="titulo">
+                        <h1>CHALLENGE <strong>ONE</strong>:</h1> 
+                        <h2>ENCRIPTADOR DE TEXTO.</h2>
+                    </div>
+
+                    <form class="contenedor_input" id="formulario">
+                        <textarea class="input" id="input_area" rows="10" placeholder="Escriba aquí su texto..."></textarea>
+                    </form>
+
+                    <div class="div1_botones">              
+                        <button onclick="encriptador()" class='boton' id="encriptador" name="Encriptar texto...">Encriptar</button>
+                        <button onclick="desencriptador()" class='boton' id="desencriptador" name="Desencriptar texto...">Desencriptar</button>               
+                    </div>
+                </div>
+
+                <div class="div_output">
+                    <div class="contenedor_output"> 
+                        <p><h3 id="texto_var1">Bienvenido!</h3></p>
+                        <br>
+                        <p><h4 id="texto_var2">Ingresa un texto que desees encriptar o desencriptar c:</h4></p>
+                    </div>
+                    <div class="div2_botones">              
+                        <button onclick="copiar()" class='boton2' id="copiar" name="Copiar texto al portapapeles"><img src="img/portapapeles.png"></button>
+                        <button onclick="borrar()" class='boton2' id="borrar" name="Borrar texto..."><img src="img/bote-de-basura.png"></button>               
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_inferior">
+                <footer class="footer">
+                    <p class="copyright">&#169; Victor Malvaez, 2024</p>
+                    <a href="https://github.com/VictorMlvz"><i class="fa fa-github" style="font-size:36px;color:white"></i></a>
+                    <a href="https://www.linkedin.com/in/victormlvz"><i class="fa fa-linkedin-square" style="font-size:36px;color:white"></i></a>
+                </footer>
+            </div>
+        
+        </main>
+    </body>
+
+</html>
